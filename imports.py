@@ -58,6 +58,8 @@ class Paths:
     
         processedTrain = pointCloudPath+"processedTrain/forSegmentation(10cmVoxels)/"
         processedTest = pointCloudPath+"processedTest/forSegmentation(10cmVoxels)/"
+        processedTest = pointCloudPath+"processedTest/forSegmentation(10cmVoxels)/"
+        generated = pointCloudPath+"/generated/"        
 
     class NPM3D:
         pointCloudPath = mainPath + "NPM3D/"

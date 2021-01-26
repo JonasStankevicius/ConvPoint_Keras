@@ -201,7 +201,8 @@ class Curbs(Const):
 
     testFiles = [
                     "park_extracted.npy",
-                    "Jelskio_str_trimmed.npy",
+                    "WCO MX9 extracted.npy",
+                    "Copy of S2222791_20181016-105709_0001-002_extracted_part2.npy",
                 ]
     
     excludeFiles = [
@@ -826,10 +827,6 @@ class ModelSaveCallback(tf.keras.callbacks.Callback):
 
             message = "Ep: {0}. {1}: {2:.3}%. {3}: {4:.3}%".format(self.epoch, self.metric, miou, val_metric, val_miou)
             WriteToLog(message)
-
-            f = open("demofile3.txt", "w")
-            f.write("Woops! I have deleted the content!")
-            f.close()
 
             if(self.sendNotifications):
                 try:                    
