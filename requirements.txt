@@ -1,0 +1,11 @@
+tensorflow==2.3.0
+pandas
+plyfile
+scikit-learn
+numba
+tqdm
+pillow
+wandb
+laspy
+laszip
+open3d
